@@ -1,0 +1,42 @@
+.header {
+	background-color : #FFEBCD;
+	color: navy;
+	text-align: center;
+	border : ridge; 
+}
+.column {
+	float: left;
+	padding: 20px;
+}
+.column.a {
+	background-color : rgba(192,192,192,.9) ;
+	color : black ;
+	text-align : left ;
+	padding: 20px;
+	width: 25%;
+	border : double;
+}
+.column.b {
+	background-color : rgba(192,192,192,.8) ;
+	color : black ;
+	text-align : justify ;
+	padding: 20px;
+	width: 50%;
+	border : double;
+}
+@media screen and (max-wigth: 600px) {
+	.column.kanan, .column.kiri {
+	width:100%;
+	}
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.footer {
+	background-color: grey;
+	padding: 10px;
+	text-align:center;
+	border: groove;
+} 
