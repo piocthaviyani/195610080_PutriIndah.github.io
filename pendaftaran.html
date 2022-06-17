@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="proses.php">
+</head>
+<body>
+			<fieldset>
+			<legend>REGISTER JOIN PYO MEMBERSHIP</legend>
+			<table>
+				<tr><td>Nama</td><td><input type="text" name="fnama" id="fnama" /></td></tr>
+				
+				<tr><td>Tempat Lahir</td><td><input type="text" name="tempat" id="tempat" /></td></tr>
+				
+				<tr><td>Tanggal Lahir</td><td>
+				<input type="date" name="tgl_lahir" required><br>
+				
+				<tr><td>Alamat</td><td><input type="text" name="lalamat" id="lalamat" /></td></tr>
+								
+				<tr><td>Berat Badan</td><td><input type="text" name="berat" id="berat" /></td></tr>
+				
+				<tr><td>Tinggi Badan</td><td><input type="text" name="tinggi" id="tinggi" /></td></tr>
+			
+				<tr><td>Jenis Kelamin</td><td>
+					<input type="radio" name="jkel" value="Laki-laki"/>Laki-laki
+					<input type="radio" name="jkel" value="Perempuan"/>Perempuan
+				</td></tr>
+
+			
+				<tr><td>Tertarik di</td><td>
+					<select name="fashion">
+						<option value=""> Pilih</option> 
+						<option value="Boyband">Boyband</option>
+						<option value="Girlband">Girlband</option>
+						<option value="Aktor">Aktor</option>
+						<option value="Aktor">Aktris</option>
+						<option value="Penyanyi">Penyanyi</option>
+						<option value="Model">Model</option>
+						<option value="Composer">Composer</option>
+					</select>
+				</td></tr>
+
+				
+				<tr><td>Hobi</td><td>
+					<input type="checkbox" name="cekhobi[]" value="Dance" />
+					<label for="cekSing">Dance</label>
+					<input type="checkbox" name="cekhobi[]" value="Menyanyi" />
+					<label for="cekhobi">Menyanyi</label>
+					<input type="checkbox" name="cekhobi[]" value="Menulis" />
+					<label for="cekSing">Menulis</label>
+					<input type="checkbox" name="cekhobi[]" value="Olahraga" />
+					<label for="cekhobi">Olahraga</label>
+				</td></tr>
+				
+				<tr><td>Email</td><td><input type="text" name="email" id="email" /></td></tr>
+				<tr><td>No. HP</td><td><input type="text" name="nomor" id="nomor" /></td></tr>
+				</table>
+			<br>
+			
+			<p>PYO ENTERTAIMENT collection and use of my personal information</p>
+			<textarea>1. (Items of the Personal Information to be Collected)
+					The Company collects the following personal information for the purpose of membership, consulting, and service application, etc.
+					① Items to Collect : Name, date of birth, gender, login ID, password, question and answer for password, home telephone number, home address, cell phone number, email, service use log, access log, cookie, access IP information, payment records, preferred artist, IPIN number, name of legal representative
+					②How to Collect Personal Information : Via the homepage (member sign-in, audition entry, event participation, request of delivery) or in a written form
+					2. (Purpose to Collect and Use Personal Information)
+					The Company shall use the collected personal information for the following purposes.
+
+					①Performance of contract in relation to service provision and charging in accordance with service provision
+					Provision of contents, purchase and payment and shipment or delivery to billing address
+					②Management of Member
+					Identification in accordance with the use of membership service, personal identification, prevention of illegal or unauthorized use by delinquent member, confirmation of the intent to sign in, confirmation of age, confirmation of whether a legal representative agrees or not when the Company collects the personal information of children under the age of 14, handling of public petition such as complaints and public notice.
+					③Utilization for Marketing and Advertising
+					Development and specialization of new service (product), delivery of advertising information including events, service provision and advertisement posting in accordance with demographic characteristics, counting of access frequency or statistics for members’ service use
+					3. (Duration to Retain and Use Personal Information)
+					In principle, the Company shall discard the applicable personal information immediately after such information is collected and meets its intended purpose.
+					However, in the event that such information needs to be retained pursuant to the applicable laws and regulations, the Company shall retain the following information during a certain period set forth in the applicable laws and regulations.
+
+					①Items to be Retained : Name, date of birth, gender, login ID, password, question and answer for password, home telephone number, home address, cell phone number, email, service use log, access log, cookie, access IP information, payment records, preferred artist, IPIN number, name of legal representative
+					②In Accordance with : Act on the Consumer Protection in the Electronic Commerce Transactions, etc.
+					③Duration of Retention : 3 years except for the following:
+					1.Records in Relation to Representation/Advertisement: 6 months (Act on the Consumer Protection in the Electronic Commerce Transactions, etc.)
+					2.Records in Relation to Contract or Withdrawal from Membership : 5 years (Act on the Consumer Protection in the Electronic Commerce Transactions, etc.)
+					3.Records in Relation to Payment and Provision of Goods etc.: 5 years (Act on the Consumer Protection in the Electronic Commerce Transactions, etc.)
+					4.Records in Relation to Consumer Complaints or Dispute Settlement: 3 years (Act on the Consumer Protection in the Electronic Commerce Transactions, etc.)
+					5.Records in Relation to Collection/Disposal and Use, etc. of Credit Information: 3 years (Act on the Use and Protection of Credit Information)</textarea>
+					
+			<p>I agree to the PYO ENTERTAIMENT collection and use of my personal information.  </p>
+					<p>
+					<input type="radio" name="informasi" value="Agree"/>Agree
+					<input type="radio" name="informasi" value="Disagree"/>Disagree
+					</p>
+					
+				<input type="submit" name="submit" id="submit" value="submit" />
+			</form>
+		</div>
+	</div>
+	</fieldset> 
+</body>
+</html>
